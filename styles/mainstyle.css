@@ -1,5 +1,10 @@
+:root {
+    --main: #2AC2B1;
+}
+
 a {
     text-decoration: none;
+    color: var(--main);
 }
 
 ul {
