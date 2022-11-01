@@ -2,6 +2,10 @@
     --main: #2AC2B1;
 }
 
+.corverde {
+    color: var(--main)
+}
+
 a {
     text-decoration: none;
     color: var(--main);
@@ -17,4 +21,15 @@ ul {
 
 .quitbtn {
     color: rgb(236, 95, 95) !important;
+}
+
+.casabelaimg {
+    padding: 2px 2px 2px 2px;
+    max-width: 93vw;
+    border: 1px solid #2AC2B1;
+    border-radius: 1%;
+}
+
+.cfginfocomerc {
+    color: cadetblue;
 }
