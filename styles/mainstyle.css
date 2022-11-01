@@ -2,8 +2,13 @@
     --main: #2AC2B1;
 }
 
+<<<<<<< HEAD
 body {
     background-color: white;
+=======
+.corverde {
+    color: var(--main)
+>>>>>>> f88ebee193d15d5b35e4cdc0ebb5e4b6fc69d14c
 }
 
 a {
@@ -23,6 +28,7 @@ ul {
     color: rgb(236, 95, 95) !important;
 }
 
+<<<<<<< HEAD
 
 .popular {
     margin-top: 200px;
@@ -205,3 +211,15 @@ ul {
 	color: #08bcfc;
 }
 
+=======
+.casabelaimg {
+    padding: 2px 2px 2px 2px;
+    max-width: 93vw;
+    border: 1px solid #2AC2B1;
+    border-radius: 1%;
+}
+
+.cfginfocomerc {
+    color: cadetblue;
+}
+>>>>>>> f88ebee193d15d5b35e4cdc0ebb5e4b6fc69d14c
