@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> FindMerce </title>
+		<link rel = "stylesheet" href = "estilo.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</head>
+	<body style = "background-color: #efefef;">
+		<a href = "user.html" class = "m-o"> <button class = "m-m-o" style = "position: fixed; right: 0px; padding-top: 12px; outline: 0;"> <img src = "imagens/user.png" style = "max-width: 30px;"> </button> </a>
+		<div class = "m-m" style = "position: fixed;">
+			<input type = "checkbox" id = "m-c">
+			<label id = "icone" for = "m-c" class = "m-m-o"> ☰ </label>
+			<div class = "m-b">
+				<p style = "color: #2AC2B1; font-size: 20px; text-align: center;"> FIND <img src = "imagens/logo.png" style = "max-width: 30px; position: relative; top: -10px;">MERCE </p>
+				<hr style = "background-color: #2AC2B1; max-width: 150px; position: relative; left: -40px; margin-top: 5px;"> <br><br>
+				<hr style = "margin: -40px 0 0 -15px; width: 250px; background-color: #D9D9D9">
+				<p style = "color: #2AC2B1; margin: 10px 5px 30px 5px; font-size: 18px;"> Bem vindo, Fulano. </p> <br>
+				<a href = "mapa.html" class = "m-o"> <img src = "imagens/mapa.png" style = "max-width: 40px; margin-right: 5px;"> Mapa </a> <br><br>
+				<a href = "categorias.html" class = "m-o"> <img src = "imagens/loja.png" style = "max-width: 40px; margin-right: 5px;"> <p class = "titopcoes"> Categorias </p> </a> <br><br>
+				<a href = "registerpoint.html" class = "m-o"> <img src = "imagens/point.png" style = "max-width: 40px; margin-right: 5px;"> <p class = "titopcoes"> Registrar ponto </p> </a> <br><br>
+				<div id = "m-mb">
+					<hr style = "margin-left: -15px; width: 250px; background-color: #D9D9D9; margin-bottom: -7px;">
+					<img src = "imagens/interrogacao.png" style = "max-width: 30px;"> <p style = "color: #2AC2B1; font-size: 15px;"> Ajuda e feedback </p>
+				</div>
+			</div>
+		</div>
+		<div class = "container-fluid" id = "barra">
+			<ul>
+				<li> A </li>
+				<li> a </li>
+				<li> a </li>
+			</ul>
+		</div>
+		<div style = "text-align: center"> <a href = "registerpoint.html"> <img src = "imagens/banner.png" style = "max-width: 100%; margin: 20px 0px 20px 0px;"> </a> </div>
+		<div class = "w-75 p-3 conteudo center-block">
+			<p class = "conteudo-tl"> Registrar ponto </p>
+			<hr style = "background-color: #2AC2B1; max-width: 230px;">
+			<p class = "rp-tsl"> No formulário abaixo você poderá registrar seu ponto preenchendo todos os campos informados. Ao informar suas informações verifique se todas as lacunas
+			estejam preenchidas corretamente antes de confirmar o envio do registro. Logo após enviar o mesmo, você deverá esperar dentre 3 a 7 dias para que seu ponto seja autorizado. </p> <br><br>
+			<form method = "post" action = "great_registerpoint.html"> 
+				<label class = "rp-td" for = "point_name" style = "margin-right: 255px"> Nome do ponto* </label> <br>
+				<img src = "imagens/key.png" class = "rp-icons">
+				<input type = "text" placeholder = "" id = "point_name" maxlength="50" required class = "rp-d" value title = "Nome do ponto" autocomplete="off" oninvalid = "this.setCustomValidity('Por favor, insira o nome do ponto.')" oninput="setCustomValidity('')"> <br>
+				<label class = "rp-td" for = "point_tel" style = "margin-right: 245px"> Telefone do ponto* </label> <br>
+				<img src = "imagens/telephone.png" class = "rp-icons">
+				<input type = "text" placeholder = "" id = "point_tel" maxlength="15" required class = "rp-d" value title = "Telefone do ponto" autocomplete="off" oninvalid = "this.setCustomValidity('Por favor, insira o telefone do ponto.')" oninput="setCustomValidity('')"> <br>
+				<label class = "rp-td" for = "point_city" style = "margin-right: 255px"> Cidade do ponto* </label> <br>
+				<img src = "imagens/point.png" class = "rp-icons">
+				<input type = "text" placeholder = "" id = "point_city" maxlength="50" required class = "rp-d" value title = "Cidade do ponto" autocomplete="off" oninvalid = "this.setCustomValidity('Por favor, insira a cidade do ponto.')" oninput="setCustomValidity('')"> <br>
+				<label class = "rp-td" for = "point_street" style = "margin-right: 265px;"> Rua do ponto* </label> <br>
+				<img src = "imagens/point.png" class = "rp-icons">
+				<input type = "text" placeholder = "" id = "point_street" maxlength= "50" required class = "rp-d" value title = "Rua do ponto" autocomplete="off" oninvalid = "this.setCustomValidity('Por favor, insira a rua do ponto.')" oninput="setCustomValidity('')"> <br>
+				<label class = "rp-td" for = "point_district" style = "margin-right: 255px"> Bairro do ponto* </label> <br>
+				<img src = "imagens/point.png" class = "rp-icons">
+				<input type = "text" placeholder = "" id = "point_district" maxlength="50" required class = "rp-d" value title = "Bairro do ponto" autocomplete="off" oninvalid = "this.setCustomValidity('Por favor, insira o bairro do ponto.')" oninput="setCustomValidity('')"> <br>
+				<label class = "rp-td" for = "point_niche" style = "margin-right: 320px"> Nicho* </label> <br>
+				<img src = "imagens/niche.png" class = "rp-icons">
+				<select id = "point_niche" class = "rp-d" required>
+					<option value = ""> Selecione o nicho </option>
+					<option value = "supermercado"> Supermercado </option>
+					<option value = "costureira"> Costureira </option>
+					<option value = "cosmeticos"> Cosmeticos </option>
+					<option value = "cosmeticos"> Design de Unhas </option>
+					<option value = "cosmeticos"> Ateliê </option>
+				</select><br>
+				<label class = "rp-td" for = "point_images" style = "margin: 30px 60px 20px 0px"> Imagens do ponto* </label> <br>
+				<input type = "file" id = "point_images" required style = "display: none;" multiple accept="image/png, image/jpeg">
+				<label class = "rp-d" for = "point_images" style = "padding: 20px; width: 70px; height: 70px;" value title = "Imagens do ponto" > <img src = "imagens/more.png" class = "rp-icons" style = "max-width: 30px; left: 0px;"> </label> <br><br><br>
+				<label class = "rp-td" style = "margin: 30px 240px 20px 0px;"> Descrição do ponto* </label> <br>
+				<textarea rows="8" cols="50" id = "point_desc" maxlength="30" required oninvalid = "this.setCustomValidity('Por favor, insira a descrição do ponto.')" oninput="setCustomValidity('')"> </textarea> <br><br><br>
+				<p style = "color: #2AC2B1;"> Termos de condições de uso </p> 
+				<hr style = "background-color: #2AC2B1; max-width: 250px; top: -20px;">
+				<input type = "checkbox" style = "border-radius: 5px;" required> <p style = "color: #2AC2B1;" style = "display: inline-block"> Eu li e concordo com  os termos de condições de uso </p> </input> 
+				<br><br>
+				<input type = "submit" value = "Enviar registro" class = "rp-c"> <br><br>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> FindMerce </title>
+		<link rel = "stylesheet" href = "estilo.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</head>
+	<body style = "background-color: #efefef;">
+		<div class = "container-fluid" id = "barra">
+			<ul>
+				<li> A </li>
+				<li> a </li>
+				<li> a </li>
+			</ul>
+		</div> <br>
+		<div class = "w-75 p-3 conteudo center-block">
+			<br><br>
+			<p style = "color: #2AC2B1; font-size: 40px;"> FIND <img src = "imagens/logo.png" style = "max-width: 60px; position: relative; top: -20px;">MERCE </p>
+			<hr style = "background-color: #2AC2B1; max-width: 300px;"> <br><br>
+			<p class = "conteudo-tl"> Cadastre-se </p>
+			<form method = "post" action = "index.html">
+				<label class = "lc-td" for = "user_name" style = "margin-right: 130px"> Nome de usuário* </label> <br>
+				<input type = "text" placeholder = "" id = "user_name" required class = "lc-d"> <br>
+				<label class = "lc-td" for = "email" style = "margin-right: 210px"> Email* </label> <br>
+				<input type = "email" placeholder = "" id = "email" required class = "lc-d"> <br>
+				<label class = "lc-td" for = "password" style = "margin-right: 210px"> Senha* </label> <br>
+				<input type = "password" placeholder = "" id = "password" required class = "lc-d"> <br><br><br>
+				<p style = "color: #2AC2B1;"> Termos de condições de uso </p> 
+				<hr style = "background-color: #2AC2B1; max-width: 250px; top: -20px;">
+				<input type = "checkbox" required> <p style = "color: #2AC2B1;" style = "display: inline-block"> Eu li e concordo com  os termos de condições de uso </p> </input> 
+				<br><br>
+				<input type = "submit" value = "Criar conta" class = "lc-c"> <br><br>
+			</form>
+			<a href = "index.html" style = "text-decoration: none;"><p class = "lc-e"> Já tem uma conta? Clique aqui </p>
+			<hr style = "background-color: #2AC2B1; max-width: 250px;"> <br><br>
+		</div>
+	</body>
+</html>
