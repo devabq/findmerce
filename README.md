@@ -6,7 +6,7 @@
 <ul>
 <li>Amanda Camila André de Souza - Atuando como Product Owner</li>
 <li>Ana Alice Ribeiro de Melo - Atuando como Scrum Master</li>
->li>Josimar Ribeiro de Moura Filho - Atuando na Equipe de desenvolvimento</li>
+<li>Josimar Ribeiro de Moura Filho - Atuando na Equipe de desenvolvimento</li>
 <li>Paulo Cezar de Carvalho Albuquerque - Atuando na Equipe de desenvolvimento</li>
 </ul>
 <p>Os códigos aqui presentes são de uma das fases de desenvolvimento do projeto e não correspondem a versão final, qual foi perdida após apresentação do trabalho.<p>
